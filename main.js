@@ -1,3 +1,12 @@
-document.querySelector('.box').onclick(function(){
+document.querySelector('.box').onclick=function(){
 	alert(1);
-})
+}
+document.querySelector('.box').onclick=function(){
+	alert(2);
+}
+document.querySelector('.box').onclick=function(){
+	alert(3);
+}
+document.querySelector('.box').onclick=function(){
+	alert(1);
+}
